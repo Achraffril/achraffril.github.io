@@ -1,0 +1,28 @@
+:root{
+    --45:#876445;
+    --25:#CA965C;
+    --15-0:#EEC373;
+    --15-1:#F4DFBA;
+    --txt:#111;
+}
+
+a,button{
+    transition: .3s;
+}
+a{color: var(--txt);text-decoration: none;}
+a:hover , .dropdown-button:hover{
+    color: var(--25) !important;
+    transition: .3s;
+    
+}
+a.order:hover{
+    background-color: var(--15-1);
+    color: var(--45) !important;
+    transform: translatey(-5px);
+}
+/*
+
+.support img{
+min-width: 100px;
+max-width: 200px;
+}*/
